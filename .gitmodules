@@ -1,0 +1,9 @@
+[submodule "service-one"]
+	path = service-one
+	url = git@github.com:sathish-washmen/service-one.git
+[submodule "service-two"]
+	path = service-two
+	url = git@github.com:sathish-washmen/service-two.git
+[submodule "shared-libs"]
+	path = shared-libs
+	url = git@github.com:sathish-washmen/shared-libs.git

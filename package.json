@@ -1,0 +1,27 @@
+{
+  "name": "@gsg/workspace-demo",
+  "version": "1.0.0",
+  "description": "workspace demo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sathish-washmen/workspaces-demo.git"
+  },
+  "author": "Sathish Gajarla <sathish.gajarla@washmen.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sathish-washmen/workspaces-demo/issues"
+  },
+  "homepage": "https://github.com/sathish-washmen/workspaces-demo#readme",
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "service-one",
+      "service-two",
+      "shared-libs"
+    ]
+  }
+}
