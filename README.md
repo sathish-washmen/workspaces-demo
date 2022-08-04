@@ -21,3 +21,10 @@ git submodule update
 ```
 git submodule update --recursive --init
 ```
+
+## To checkout to a specific branch in repos
+
+```
+git submodule foreach git checkout -b <branch-name>
+git submodule foreach git pull origin <branch-name>
+```
